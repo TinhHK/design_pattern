@@ -8,8 +8,10 @@ require 'Singleton.php';
 $single = Singleton::getInstance();
 $single::setHiuHiu();
 echo $single::getHiuHiu();
+
 $hic = Singleton::getInstance();
 echo $hic->getHiuHiu();
+
 $hic->setHiuHiu();
 echo $hic->getHiuHiu();
 echo $single::getHiuHiu();

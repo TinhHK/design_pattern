@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Design_pattern\Singleton;
 
-final class Singleton
+class Singleton
 {
 	private static $instance;
 	private static $hiuhiu = 3;
@@ -25,6 +25,6 @@ final class Singleton
 	}
 
 	private function __construct(){}
-	private function __clone(){}
-	private function __wakeup(){}
+	// private function __clone(){}
+	// private function __wakeup(){}
 }
