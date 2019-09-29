@@ -1,0 +1,1 @@
+It's used for queueing tasks, tracking the history of executed tasks and performing the "undo"
